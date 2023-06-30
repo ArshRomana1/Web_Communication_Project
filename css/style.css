@@ -411,7 +411,9 @@ a {
               font-size: 18px;
           }        
 
-
+address {
+  color: white;
+}
  /*         *
 {
 	padding: 0px;
