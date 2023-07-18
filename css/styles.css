@@ -1,0 +1,38 @@
+.content-section {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+.content-section h1 {
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.content-section p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.content-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.content-section li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.content-section li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 7px;
+    width: 10px;
+    height: 10px;
+    background-color: #333;
+    border-radius: 50%;
+}
