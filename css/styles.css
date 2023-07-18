@@ -36,3 +36,13 @@
     background-color: #333;
     border-radius: 50%;
 }
+/* Add hover effect to navbar links */
+.navbar-nav .nav-link:hover {
+    color: #fff;
+    background-color: #17a2b8;
+}
+
+/* Add a subtle box shadow to the content section */
+.content-section {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
